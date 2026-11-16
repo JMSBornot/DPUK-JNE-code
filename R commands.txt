@@ -1,0 +1,8 @@
+Rscript eval_megfeatures_glmnet.R conn_MEGPLANAR_LCMV 10 20 auc 0.9
+
+Rscript eval_megfeatures_glmnet.R conn_MEGPLANAR_eLORETA 10 20 auc 1 0.2
+
+bash runall_FC_corr.sh MEG_eLORETA
+
+Rscript eval_megfeatures_glmnet_alpha_corr.R coh_MEG_eLORETA 10 20 auc 1 0
+Rscript evalmat_megfeatures_glmnet_alpha_corr.R coh_MEG_eLORETA 10 20 auc 1 0

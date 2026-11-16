@@ -1,0 +1,6 @@
+function mdl = train_RussBoost_BayesianOptim(X,Y,Niter,K)
+% mdl - Bayesian trained model
+
+mdl = fitcensemble(X,Y,'Method','RUSBoost',...
+    'OptimizeHyperparameters',{'NumLearningCycles','LearnRate','MaxNumSplits'},...
+    'HyperparameterOptimizationOptions',struct('MaxObjectiveEvaluations',Niter,'Kfold',K,'Verbose',0,'ShowPlots',false));
