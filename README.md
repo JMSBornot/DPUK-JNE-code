@@ -90,7 +90,7 @@ The required environment depends on which part of the pipeline is used:
 - **FreeSurfer** for MRI cortical reconstruction and anatomical feature extraction.
 - **R** with the packages `readxl`, `R.matlab`, `dplyr`, `glmnet`, `caret`, `ROCR` and `pROC`, plus a Bash environment for `runall_*.sh`.
 
-Exact tested software versions and a fully reproducible environment manifest have **not** been established in this repository. The included [install_R.sh](install_R.sh) documents an earlier conda-based R 4.3.2 setup, but contains user-specific paths and does not install every package used by the R scripts (notably `R.matlab`). Review and adapt it rather than running it unchanged.
+Exact tested software versions and a fully reproducible environment manifest have **not** been established in this repository. The included [install_R.sh](install_R.sh) documents an earlier conda-based R 4.3.2 setup, but contains user-specific paths and does not install every package used by the R scripts (notably `R.matlab`). It should work OK with MATLAB 2020 versions up to 2026a and R versions 4.1.0 up to 4.4.1.
 
 ## Getting started
 
