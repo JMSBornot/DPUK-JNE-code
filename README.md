@@ -11,6 +11,7 @@ Ahmad, A. L., Faye, I., Idris, Z., Sanchez-Bornot, J., Sotero, R. C., Coyle, D.,
 Ahmad, A. L., Idris, Z., Faye, I., Sanchez-Bornot, J., Sotero, R. C., & Coyle, D. (2024, December). Magnetoencephalography brain spectral biomarkers of Alzheimer's disease: a promising approach demonstrated with the BioFIND dataset. In **2024 IEEE-EMBS Conference on Biomedical Engineering and Sciences (IECBES)** (pp. 108-113). IEEE. [https://ieeexplore.ieee.org/abstract/document/10991297](https://ieeexplore.ieee.org/abstract/document/10991297)
 
 
+
 > **Scope and status:** This is a collection of research scripts, not a packaged or automatically tested application. Some files are earlier benchmark implementations, supporting utilities, or exploratory analyses. Configuration and access to the authorised research data are necessary before execution. The publication is the definitive reference for the reported study design and results.
 
 ## Research context
@@ -71,8 +72,6 @@ This diagram summarises the available components; it is **not** a claim that a s
 | Batch evaluation | [runall_spectral_corr.sh](runall_spectral_corr.sh), [runall_FC_corr.sh](runall_FC_corr.sh), `runall_*.sh` | Shell wrappers for repeated R classification experiments. |
 | Results and figures | [prepare_spectral_glmnet_corr.m](prepare_spectral_glmnet_corr.m), [prepare_FC_glmnet_corr.m](prepare_FC_glmnet_corr.m), [brainplot.m](brainplot.m), [barerrorplot.m](barerrorplot.m) | Collate performance metrics and prepare statistical summaries/visualisations. |
 
-Additional `*_adni` files, other experimental classifiers and plotting tests are retained as supporting or historical research code; they are not the primary BioFIND/JNE entry points.
-
 ## Data access and restrictions
 
 **No BioFIND participant-level data are distributed by this repository.** The BioFIND source recordings, MRI scans, metadata, derived subject-level feature tables and any other restricted outputs must be obtained and handled under the applicable DPUK approval and data-use agreements.
@@ -80,8 +79,6 @@ Additional `*_adni` files, other experimental classifiers and plotting tests are
 - BioFIND description and access information: [Vaghari et al., NeuroImage (2022)](https://doi.org/10.1016/j.neuroimage.2022.119344).
 - DPUK access information: [Dementias Platform UK application portal](https://portal.dementiasplatform.uk/Apply).
 - Original BioFIND processing and benchmark repository: [delshadv/BioFIND-data-paper](https://github.com/delshadv/BioFIND-data-paper).
-
-Do not upload raw or derived restricted data, potentially identifying participant metadata, credentials, or unauthorised analysis exports to a public GitHub repository. Follow DPUK's approved file import/export procedures; the secure workspace may not permit direct internet access.
 
 ## Software requirements
 
