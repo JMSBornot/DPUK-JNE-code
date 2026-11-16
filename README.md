@@ -2,7 +2,14 @@
 
 Research code for analysing magnetoencephalography (MEG) and structural magnetic resonance imaging (MRI) data from the **BioFIND** cohort, developed and adapted in the course of **Alwani Liyana Ahmad's PhD research**. The principal application is distinguishing healthy controls (HC) from participants with mild cognitive impairment (MCI), with particular emphasis on MEG spectral biomarkers, source reconstruction, machine learning, and multimodal MEG–MRI integration.
 
-**Associated publication:** Ahmad, A. L., Sánchez-Bornot, J. M., Sotero, R. C., Coyle, D. H., Idris, Z., & Faye, I. (2026). *Towards improving Alzheimer's intervention: a machine learning approach for biomarker detection through combining MEG and MRI pipelines.* **Journal of Neural Engineering**. [https://doi.org/10.1088/1741-2552/aebb66](https://doi.org/10.1088/1741-2552/aebb66)
+**Associated publications:**
+
+Ahmad, A. L., Sánchez-Bornot, J. M., Sotero, R. C., Coyle, D. H., Idris, Z., & Faye, I. (2026). *Towards improving Alzheimer's intervention: a machine learning approach for biomarker detection through combining MEG and MRI pipelines.* **Journal of Neural Engineering**. [https://doi.org/10.1088/1741-2552/aebb66](https://doi.org/10.1088/1741-2552/aebb66)
+
+Ahmad, A. L., Faye, I., Idris, Z., Sanchez-Bornot, J., Sotero, R. C., Coyle, D., & Hamed, Y. (2025, August). MEG Spectral Biomarkers of Alzheimer's Disease: Integrating MEG and MRI Features Using the BioFIND Dataset. In **2025 10th International Conference on Biomedical Signal and Image Processing (ICBIP)** (pp. 272-276). IEEE. [https://ieeexplore.ieee.org/abstract/document/11284312](https://ieeexplore.ieee.org/abstract/document/11284312)
+
+Ahmad, A. L., Idris, Z., Faye, I., Sanchez-Bornot, J., Sotero, R. C., & Coyle, D. (2024, December). Magnetoencephalography brain spectral biomarkers of Alzheimer's disease: a promising approach demonstrated with the BioFIND dataset. In **2024 IEEE-EMBS Conference on Biomedical Engineering and Sciences (IECBES)** (pp. 108-113). IEEE. [https://ieeexplore.ieee.org/abstract/document/10991297](https://ieeexplore.ieee.org/abstract/document/10991297)
+
 
 > **Scope and status:** This is a collection of research scripts, not a packaged or automatically tested application. Some files are earlier benchmark implementations, supporting utilities, or exploratory analyses. Configuration and access to the authorised research data are necessary before execution. The publication is the definitive reference for the reported study design and results.
 
